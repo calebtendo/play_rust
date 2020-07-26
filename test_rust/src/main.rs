@@ -1,3 +1,8 @@
+mod introduction;
+mod var;
 fn main() {
-    println!("Hello, world!");
+    println!("---------START:");
+    introduction::greet();
+    var::go();
+    println!(":STOP----------");
 }
